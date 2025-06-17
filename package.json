@@ -1,0 +1,17 @@
+{
+  "name": "api-automation-test",
+  "version": "1.0.0",
+  "description": "API automation testing with Mocha and Chai",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha test"
+  },
+  "dependencies": {
+    "chai": "^4.3.6",
+    "chai-http": "^4.3.0"
+  },
+  "devDependencies": {
+    "mocha": "^10.0.0"
+  }
+}
