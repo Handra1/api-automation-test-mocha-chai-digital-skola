@@ -4,14 +4,13 @@
   "description": "API automation testing with Mocha and Chai",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
     "test": "mocha test"
   },
   "dependencies": {
-    "chai": "^4.3.6",
-    "chai-http": "^4.3.0"
+    "chai": "^4.3.6"
   },
   "devDependencies": {
+    "chai-http": "^4.3.0",
     "mocha": "^10.0.0"
   }
 }
